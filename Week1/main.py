@@ -12,6 +12,10 @@ def check_int(input):
   except:
     return False
 
+print('''Up and Down 스무고개!
+숫자는 1부터 100까지 중 하나입니다!
+20번 이내에 위의 범위에서 컴퓨터가 선택한 번호를 맞춰보세요!''')
+start = input('Enter키를 눌러 게임을 시작합니다.')
 
 # 횟수가 남아 있는 경우 계속해서 반복
 while count >= 0:
